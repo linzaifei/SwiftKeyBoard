@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		359915CF1D3522E70009694B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359915CE1D3522E70009694B /* AppDelegate.swift */; };
+		359915D11D3522E70009694B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359915D01D3522E70009694B /* ViewController.swift */; };
+		359915D41D3522E80009694B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359915D21D3522E80009694B /* Main.storyboard */; };
+		359915D61D3522E80009694B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359915D51D3522E80009694B /* Assets.xcassets */; };
+		359915D91D3522E80009694B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359915D71D3522E80009694B /* LaunchScreen.storyboard */; };
+		359915E41D3522E80009694B /* Swift____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359915E31D3522E80009694B /* Swift____Tests.swift */; };
+		359915EF1D3522E80009694B /* Swift____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359915EE1D3522E80009694B /* Swift____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		359915E01D3522E80009694B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 359915C31D3522E60009694B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 359915CA1D3522E60009694B;
+			remoteInfo = "Swift表情键盘";
+		};
+		359915EB1D3522E80009694B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 359915C31D3522E60009694B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 359915CA1D3522E60009694B;
+			remoteInfo = "Swift表情键盘";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		359915CB1D3522E60009694B /* Swift表情键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift表情键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		359915CE1D3522E70009694B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		359915D01D3522E70009694B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		359915D31D3522E80009694B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		359915D51D3522E80009694B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		359915D81D3522E80009694B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		359915DA1D3522E80009694B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359915DF1D3522E80009694B /* Swift表情键盘Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift表情键盘Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		359915E31D3522E80009694B /* Swift____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____Tests.swift"; sourceTree = "<group>"; };
+		359915E51D3522E80009694B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359915EA1D3522E80009694B /* Swift表情键盘UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift表情键盘UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		359915EE1D3522E80009694B /* Swift____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____UITests.swift"; sourceTree = "<group>"; };
+		359915F01D3522E80009694B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		359915C81D3522E60009694B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359915DC1D3522E80009694B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359915E71D3522E80009694B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		359915C21D3522E60009694B = {
+			isa = PBXGroup;
+			children = (
+				359915CD1D3522E70009694B /* Swift表情键盘 */,
+				359915E21D3522E80009694B /* Swift表情键盘Tests */,
+				359915ED1D3522E80009694B /* Swift表情键盘UITests */,
+				359915CC1D3522E60009694B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		359915CC1D3522E60009694B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				359915CB1D3522E60009694B /* Swift表情键盘.app */,
+				359915DF1D3522E80009694B /* Swift表情键盘Tests.xctest */,
+				359915EA1D3522E80009694B /* Swift表情键盘UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		359915CD1D3522E70009694B /* Swift表情键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				359915CE1D3522E70009694B /* AppDelegate.swift */,
+				359915D01D3522E70009694B /* ViewController.swift */,
+				359915D21D3522E80009694B /* Main.storyboard */,
+				359915D51D3522E80009694B /* Assets.xcassets */,
+				359915D71D3522E80009694B /* LaunchScreen.storyboard */,
+				359915DA1D3522E80009694B /* Info.plist */,
+			);
+			path = "Swift表情键盘";
+			sourceTree = "<group>";
+		};
+		359915E21D3522E80009694B /* Swift表情键盘Tests */ = {
+			isa = PBXGroup;
+			children = (
+				359915E31D3522E80009694B /* Swift____Tests.swift */,
+				359915E51D3522E80009694B /* Info.plist */,
+			);
+			path = "Swift表情键盘Tests";
+			sourceTree = "<group>";
+		};
+		359915ED1D3522E80009694B /* Swift表情键盘UITests */ = {
+			isa = PBXGroup;
+			children = (
+				359915EE1D3522E80009694B /* Swift____UITests.swift */,
+				359915F01D3522E80009694B /* Info.plist */,
+			);
+			path = "Swift表情键盘UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		359915CA1D3522E60009694B /* Swift表情键盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359915F31D3522E80009694B /* Build configuration list for PBXNativeTarget "Swift表情键盘" */;
+			buildPhases = (
+				359915C71D3522E60009694B /* Sources */,
+				359915C81D3522E60009694B /* Frameworks */,
+				359915C91D3522E60009694B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift表情键盘";
+			productName = "Swift表情键盘";
+			productReference = 359915CB1D3522E60009694B /* Swift表情键盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+		359915DE1D3522E80009694B /* Swift表情键盘Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359915F61D3522E80009694B /* Build configuration list for PBXNativeTarget "Swift表情键盘Tests" */;
+			buildPhases = (
+				359915DB1D3522E80009694B /* Sources */,
+				359915DC1D3522E80009694B /* Frameworks */,
+				359915DD1D3522E80009694B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				359915E11D3522E80009694B /* PBXTargetDependency */,
+			);
+			name = "Swift表情键盘Tests";
+			productName = "Swift表情键盘Tests";
+			productReference = 359915DF1D3522E80009694B /* Swift表情键盘Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		359915E91D3522E80009694B /* Swift表情键盘UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359915F91D3522E80009694B /* Build configuration list for PBXNativeTarget "Swift表情键盘UITests" */;
+			buildPhases = (
+				359915E61D3522E80009694B /* Sources */,
+				359915E71D3522E80009694B /* Frameworks */,
+				359915E81D3522E80009694B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				359915EC1D3522E80009694B /* PBXTargetDependency */,
+			);
+			name = "Swift表情键盘UITests";
+			productName = "Swift表情键盘UITests";
+			productReference = 359915EA1D3522E80009694B /* Swift表情键盘UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		359915C31D3522E60009694B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "林再飞";
+				TargetAttributes = {
+					359915CA1D3522E60009694B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					359915DE1D3522E80009694B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 359915CA1D3522E60009694B;
+					};
+					359915E91D3522E80009694B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 359915CA1D3522E60009694B;
+					};
+				};
+			};
+			buildConfigurationList = 359915C61D3522E60009694B /* Build configuration list for PBXProject "Swift表情键盘" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 359915C21D3522E60009694B;
+			productRefGroup = 359915CC1D3522E60009694B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				359915CA1D3522E60009694B /* Swift表情键盘 */,
+				359915DE1D3522E80009694B /* Swift表情键盘Tests */,
+				359915E91D3522E80009694B /* Swift表情键盘UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		359915C91D3522E60009694B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359915D91D3522E80009694B /* LaunchScreen.storyboard in Resources */,
+				359915D61D3522E80009694B /* Assets.xcassets in Resources */,
+				359915D41D3522E80009694B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359915DD1D3522E80009694B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359915E81D3522E80009694B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		359915C71D3522E60009694B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359915D11D3522E70009694B /* ViewController.swift in Sources */,
+				359915CF1D3522E70009694B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359915DB1D3522E80009694B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359915E41D3522E80009694B /* Swift____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359915E61D3522E80009694B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359915EF1D3522E80009694B /* Swift____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		359915E11D3522E80009694B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 359915CA1D3522E60009694B /* Swift表情键盘 */;
+			targetProxy = 359915E01D3522E80009694B /* PBXContainerItemProxy */;
+		};
+		359915EC1D3522E80009694B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 359915CA1D3522E60009694B /* Swift表情键盘 */;
+			targetProxy = 359915EB1D3522E80009694B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		359915D21D3522E80009694B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359915D31D3522E80009694B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		359915D71D3522E80009694B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359915D81D3522E80009694B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		359915F11D3522E80009694B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		359915F21D3522E80009694B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		359915F41D3522E80009694B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift表情键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinshiyun.Swift----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		359915F51D3522E80009694B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift表情键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinshiyun.Swift----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		359915F71D3522E80009694B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift表情键盘Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinshiyun.Swift----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift表情键盘.app/Swift表情键盘";
+			};
+			name = Debug;
+		};
+		359915F81D3522E80009694B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift表情键盘Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinshiyun.Swift----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift表情键盘.app/Swift表情键盘";
+			};
+			name = Release;
+		};
+		359915FA1D3522E80009694B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift表情键盘UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinshiyun.Swift----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift表情键盘";
+			};
+			name = Debug;
+		};
+		359915FB1D3522E80009694B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift表情键盘UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xinshiyun.Swift----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift表情键盘";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		359915C61D3522E60009694B /* Build configuration list for PBXProject "Swift表情键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359915F11D3522E80009694B /* Debug */,
+				359915F21D3522E80009694B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359915F31D3522E80009694B /* Build configuration list for PBXNativeTarget "Swift表情键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359915F41D3522E80009694B /* Debug */,
+				359915F51D3522E80009694B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		359915F61D3522E80009694B /* Build configuration list for PBXNativeTarget "Swift表情键盘Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359915F71D3522E80009694B /* Debug */,
+				359915F81D3522E80009694B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		359915F91D3522E80009694B /* Build configuration list for PBXNativeTarget "Swift表情键盘UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359915FA1D3522E80009694B /* Debug */,
+				359915FB1D3522E80009694B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 359915C31D3522E60009694B /* Project object */;
+}
