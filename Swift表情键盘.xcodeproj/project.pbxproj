@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3523EE581D35E10D0054DF96 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3523EE571D35E10D0054DF96 /* Emoticons.bundle */; };
+		3523EE5A1D35E2520054DF96 /* EmtionPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3523EE591D35E2520054DF96 /* EmtionPackage.swift */; };
+		3523EEA11D3783780054DF96 /* EmoticonTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3523EEA01D3783780054DF96 /* EmoticonTextAttachment.swift */; };
+		3523EEA31D37849F0054DF96 /* UITextView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3523EEA21D37849F0054DF96 /* UITextView+Category.swift */; };
 		359915CF1D3522E70009694B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359915CE1D3522E70009694B /* AppDelegate.swift */; };
 		359915D11D3522E70009694B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359915D01D3522E70009694B /* ViewController.swift */; };
 		359915D41D3522E80009694B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359915D21D3522E80009694B /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		359915D91D3522E80009694B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359915D71D3522E80009694B /* LaunchScreen.storyboard */; };
 		359915E41D3522E80009694B /* Swift____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359915E31D3522E80009694B /* Swift____Tests.swift */; };
 		359915EF1D3522E80009694B /* Swift____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359915EE1D3522E80009694B /* Swift____UITests.swift */; };
+		359916001D35CE060009694B /* EmtionKeyBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359915FF1D35CE060009694B /* EmtionKeyBoardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3523EE571D35E10D0054DF96 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		3523EE591D35E2520054DF96 /* EmtionPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmtionPackage.swift; sourceTree = "<group>"; };
+		3523EEA01D3783780054DF96 /* EmoticonTextAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonTextAttachment.swift; sourceTree = "<group>"; };
+		3523EEA21D37849F0054DF96 /* UITextView+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Category.swift"; sourceTree = "<group>"; };
 		359915CB1D3522E60009694B /* Swift表情键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift表情键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		359915CE1D3522E70009694B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		359915D01D3522E70009694B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		359915EA1D3522E80009694B /* Swift表情键盘UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift表情键盘UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		359915EE1D3522E80009694B /* Swift____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____UITests.swift"; sourceTree = "<group>"; };
 		359915F01D3522E80009694B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359915FF1D35CE060009694B /* EmtionKeyBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmtionKeyBoardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		359915CD1D3522E70009694B /* Swift表情键盘 */ = {
 			isa = PBXGroup;
 			children = (
+				359915FC1D3523F30009694B /* KayBoardView */,
 				359915CE1D3522E70009694B /* AppDelegate.swift */,
 				359915D01D3522E70009694B /* ViewController.swift */,
 				359915D21D3522E80009694B /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				359915F01D3522E80009694B /* Info.plist */,
 			);
 			path = "Swift表情键盘UITests";
+			sourceTree = "<group>";
+		};
+		359915FC1D3523F30009694B /* KayBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				3523EE571D35E10D0054DF96 /* Emoticons.bundle */,
+				359915FF1D35CE060009694B /* EmtionKeyBoardViewController.swift */,
+				3523EE591D35E2520054DF96 /* EmtionPackage.swift */,
+				3523EEA01D3783780054DF96 /* EmoticonTextAttachment.swift */,
+				3523EEA21D37849F0054DF96 /* UITextView+Category.swift */,
+			);
+			path = KayBoardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				359915D91D3522E80009694B /* LaunchScreen.storyboard in Resources */,
+				3523EE581D35E10D0054DF96 /* Emoticons.bundle in Resources */,
 				359915D61D3522E80009694B /* Assets.xcassets in Resources */,
 				359915D41D3522E80009694B /* Main.storyboard in Resources */,
 			);
@@ -256,7 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3523EEA11D3783780054DF96 /* EmoticonTextAttachment.swift in Sources */,
 				359915D11D3522E70009694B /* ViewController.swift in Sources */,
+				359916001D35CE060009694B /* EmtionKeyBoardViewController.swift in Sources */,
+				3523EEA31D37849F0054DF96 /* UITextView+Category.swift in Sources */,
+				3523EE5A1D35E2520054DF96 /* EmtionPackage.swift in Sources */,
 				359915CF1D3522E70009694B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +510,7 @@
 				359915F51D3522E80009694B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		359915F61D3522E80009694B /* Build configuration list for PBXNativeTarget "Swift表情键盘Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +519,7 @@
 				359915F81D3522E80009694B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		359915F91D3522E80009694B /* Build configuration list for PBXNativeTarget "Swift表情键盘UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +528,7 @@
 				359915FB1D3522E80009694B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
